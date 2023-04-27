@@ -1,0 +1,287 @@
+.mang1 {
+    background-color: #438bca;
+    width: 100%;
+    height: 40px;
+    margin-top: -16px;
+}
+.mang2 {
+    background-color: #438bca;
+    width: 5%;
+    height: 31px;
+    margin-left: 855px;
+    margin-top: -56px;
+}
+.mang3 {
+    background-color: #438bca;
+    width: 8%;
+    height: 40px;
+    margin-left: 1137px;
+    margin-top: -56px;
+}
+.mang4 {
+    background-color: #438bca;
+    width: 5%;
+    height: 31px;
+    margin-left: 895px;
+    margin-top: -56px;
+}
+.mang5 {
+    background-color: #438bca;
+    width: 5%;
+    height: 31px;
+    margin-left: 940px;
+    margin-top: -56px;
+}
+.mang6 {
+    background-color: #438bca;
+    width: 5%;
+    height: 31px;
+    margin-left: 985px;
+    margin-top: -56px;
+}
+.mang7 {
+    background-color: #438bca;
+    width: 5%;
+    height: 31px;
+    margin-left: 1030px;
+    margin-top: -56px;
+}
+.root .l1 {
+    float: left;
+    list-style: none;
+    color: white;
+    text-indent: -14px;
+    margin-top: 10px;
+}
+.root .l1 a {
+    text-decoration: none;
+    color: white;
+}
+.fa-phone {
+    margin-right: 5px;
+}
+.fa-envelope {
+    margin-left: 50px;
+    margin-right: 5px;
+}
+.fa-yahoo {
+    margin-left: 50px;
+    margin-right: 5px;
+}
+.fa-skype {
+    margin-left: 50px;
+    margin-right: 5px;
+}
+.fa-viber {
+    margin-left: 50px;
+    margin-right: 5px;
+}
+.root1 .l2{
+    list-style: none;
+    margin-top: 25px;
+}
+.root1 .l2 a {
+    color: white;
+}
+.fa-facebook-f:hover {
+    background-color: #1a3f5e;
+    padding: 9px 10px 13px 10px;
+    border-radius: 3px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.root2 .l3 {
+    list-style: none;
+    text-indent: 30px;
+}
+.root2 .l3 a {
+    color: white;
+    text-indent: 5px;
+}
+.fa-lg {
+    margin-top: 17px;
+}
+.fa-lg:hover {
+    background-color: #1a3f5e;
+    border-radius: 5px;
+    padding: 15px 5px 17px 1px;
+    margin-left: -1px;
+    margin-top: 2px;
+}
+.root3 li {
+    list-style: none;
+    margin-top: 25px;
+}
+.root3 li a {
+    color: white;
+}
+.fa-google-plus-g:hover {
+    background-color: rgb(219, 76, 51);
+    border-radius: 5px;
+    padding: 10px 5px 13px 7px;
+    margin-top: -15px;
+    margin-left: -7px;
+}
+.root4 li {
+    list-style: none;
+    margin-top: 25px;
+}
+.root4 li a {
+    color: white;
+}
+.fa-youtube:hover {
+    background-color: rgb(219, 76, 51);
+    border-radius: 5px;
+    padding: 10px 5px 13px 7px;
+    margin-top: -15px;
+    margin-left: -7px;
+}
+.root5 li {
+    list-style: none;
+    margin-top: 25px;
+}
+.root5 li a {
+    color: white;
+}
+.fa-twitter:hover {
+    background-color: rgb(145, 145, 202);
+    border-radius: 5px;
+    padding: 10px 5px 13px 7px;
+    margin-top: -15px;
+    margin-left: -7px;
+}
+.root6 li {
+    list-style: none;
+    margin-top: 25px;
+}
+.root6 li a {
+    color: white;
+}
+.fa-rss:hover {
+    background-color: rgb(236, 164, 63);
+    border-radius: 5px;
+    padding: 10px 5px 13px 7px;
+    margin-top: -15px;
+    margin-left: -7px;
+}
+.anh1 {
+    width: 100%;
+    height: 210px;
+}
+.anh2 {
+    width: 120px;
+    position: absolute;
+    top: 95px;
+    right: 1115px;
+}
+.box-menu {
+    background-color: #438bca;
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 5px;
+    /* bo tròn góc bên trái */
+    border-top-right-radius: 5px;
+    /* bo tròn góc bên phải */
+    margin-top: -3px;
+}
+.box-menu ul{
+    display: inline-flex;
+    list-style: none;
+}
+.box-menu ul li {
+    margin: -15px;
+    padding: 14px;
+    margin-right: 24px;
+}
+.box-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+.box-menu ul li:hover{
+    background-color: #3280c3;
+}
+.box-submenu {
+    display: none; 
+    /* ẩn các menu con */
+}
+.box-submenu ul li a {
+    color: black;
+    /* đổi màu chữ menu con */
+}
+.box-menu ul li:hover .box-submenu {
+    display: block;
+    position: absolute;
+    background: rgb(223, 208, 208);
+    margin-top: 15px;
+    margin-left: -15px;
+    /* hiện menu lên theo cách menu con nhưng nó sẽ chưa theo cột */
+}
+.box-menu ul li:hover .box-submenu ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    /* menu con hiện lên theo cột */
+}
+.box-menu ul li:hover .box-submenu ul li{ 
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+.fa-angle-down {
+    color: white;
+    margin-right: 3px;
+}
+.nen {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 50px;
+}
+.time {
+    background-color:  #eeeeee;
+    width: 25%;
+    height: 40px;
+    margin-top: -50px;
+}
+#h {
+    font: weight 200px;;
+    display: block;
+    margin: 0 0 5px;
+    letter-spacing: 5px;
+}
+.chuchay {
+    background-color: #eeeeee;
+    width: 50%;
+    height: 40px;
+    margin-left: 316px;
+    margin-top: -40px;
+}
+.chu {
+    color: blue;
+    margin-top: 15px;
+    text-transform:uppercase ;
+}
+.nen1 {
+    background-color: #eeeeee;
+    width: 25%;
+    height: 40px;
+    margin-top: -40px;
+    margin-left: 948px;
+}
+.timkiem {
+    background-color: #438bca;
+    width: 270px;
+    height: 40px;
+    margin-top: -35px;
+    margin-left: 980px;
+    border-radius: 5px;
+
+}
+.timkiem1 {
+    width: 220px;
+    height: 34px;
+}
+.fa-magnifying-glass {
+    color: white;
+    margin-left: 10px;
+}
